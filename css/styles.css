@@ -1,0 +1,160 @@
+/* HTML */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70px;
+    color: #13183F;
+}
+h2 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #13183F;
+}
+h3 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #13183F;
+}
+p {
+    line-height: 28px;
+    color: #83869A;
+}
+a {
+    text-decoration: none;
+    color: #F74780;
+}
+/* Main */
+main {
+    /* margin: 2% 5%; */
+}
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 2% 5%;
+}
+.btn-dark {
+    background-color: #13183F;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 28px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.btn-dark:hover {
+    background-color: #666CA3;
+}
+/* Title section */
+#title-section {
+    display: flex;
+    padding: 0 5%;
+}
+.title-container {
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.title-image-container {
+    width: 60%;
+}
+.title-image {
+
+}
+.btn-title {
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 28px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.btn-title:hover {
+    background-color: red;
+}
+/* Card Section */
+#card-section {
+    background-image: linear-gradient(#fff, #F0F1FF);
+    padding: 5% 5%;
+}
+.card-most-popular h2 {
+    color: #fff;
+}
+.card-content1, .card-content2 {
+    display: flex;
+    margin: 5% 0;
+}
+.card-most-popular {
+    width: 33.33%;
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    border-radius: 15px;
+}
+.card-animation {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 30px;
+}
+.card-animation p {
+    padding: 32px;
+}
+.card-design {
+    width: 33.33%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.card-photography {
+    width: 33.33%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.card-crypto {
+    width: 33.33%;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 0 30px;
+}
+.card-business {
+    width: 33.33%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #13183F;
+    height: 120px;
+    padding: 0 5%;
+}
+.btn-footer {
+    background-image: linear-gradient(#4851FF, #F02AA6);
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 28px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
