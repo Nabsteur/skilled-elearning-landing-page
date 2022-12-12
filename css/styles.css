@@ -290,17 +290,23 @@ footer {
  }
  @media all and (max-width: 480px) {
     header {
-        padding: 16px 18px;
+        padding: 16px 16px;
     }
     h1 {
         font-size: 40px;
         line-height: 51px;
     } 
+    p {
+        font-size: 16px;
+    }
     #title-section {
-        padding: 2% 18px;
+        padding: 2% 16px;
         display: block;
     }
     .title-container { 
+        width: 100%;
+    }
+    .title-container p {
         width: 100%;
     }
     .title-image-container {
@@ -314,7 +320,7 @@ footer {
     }
     #card-section {
         background-image: linear-gradient(#fff, #F0F1FF);
-        padding: 0 18px 80px 18px;
+        padding: 0 16px 80px 16px;
     }
     .card-content {
         margin: 0;
