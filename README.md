@@ -11,9 +11,13 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop version](assets/skilled-elearning-landing-page-desktop.png)
+![Tablet version](assets/skilled-elearning-landing-page-tablet.png)
+![Mobile version](assets/skilled-elearning-landing-page-mobile.png)
+
 ### Links
 
-## My process
+[Live solution build](https://nabsteur.github.io/skilled-elearning-landing-page/)
 
 ### Built with
 
