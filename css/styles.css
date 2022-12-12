@@ -172,7 +172,42 @@ footer {
     background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 167, 195, 1.0));
 }
  /* Responsive */
- @media (max-width: 890px) {
+ @media all and (min-width: 1024px) and (max-width: 1280px) { 
+    header {
+        padding: 2% 40px;
+    }
+    #title-section {
+        padding: 5% 40px;
+    }
+    #card-section {
+        padding: 5% 40px;
+    }
+    .title-image {
+        position: absolute;
+        top: 0;
+        right: -250px;
+    }
+ }
+ @media all and (min-width: 768px) and (max-width: 1024px) { 
+    header {
+        padding: 2% 40px;
+    }
+    #title-section {
+        padding: 5% 40px;
+    }
+    #card-section {
+        padding: 5% 40px;
+    }
+    .title-image {
+        position: absolute;
+        top: -50px;
+        right: -250px;
+    }
+    .title-container { 
+        width: 70%;
+    }
+ }
+ @media all and (min-width: 480px) and (max-width: 768px) {
     h1 {
         font-size: 40px;
         line-height: 51px;
@@ -201,7 +236,6 @@ footer {
         right: -200px;
     }
     #card-section {
-        background-image: linear-gradient(#fff, #F0F1FF);
         padding: 5% 40px;
     }
     .card-most-popular h2 {
@@ -242,7 +276,7 @@ footer {
         width: 85%;
     }
  }
- @media (max-width: 600px) {
+ @media all and (max-width: 480px) {
     header {
         padding: 16px 18px;
     }
@@ -304,5 +338,10 @@ footer {
     .card-content p {
         padding-left: 9%;
         width: 85%;
+    }
+ }
+ @media (max-width: 325px) {
+    .card-most-popular h2 {
+        font-size: 20px;
     }
  }
