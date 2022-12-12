@@ -170,7 +170,8 @@ footer {
 .btn-footer:hover {
     background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 167, 195, 1.0));
 }
- /* Responsive */
+ /*** Responsive ***/
+ /* Desktop */
  @media screen and (min-width: 1900px) {
     .title-image {
         position: absolute;
@@ -219,6 +220,7 @@ footer {
         width: 70%;
     }
  }
+ /* Tablet */
  @media all and (min-width: 480px) and (max-width: 768px) {
     h1 {
         font-size: 40px;
@@ -288,6 +290,7 @@ footer {
         width: 85%;
     }
  }
+ /* Mobile */
  @media all and (max-width: 480px) {
     header {
         padding: 16px 16px;
