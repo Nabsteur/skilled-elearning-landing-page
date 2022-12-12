@@ -27,12 +27,16 @@
           <button class="btn-title">Get Started</button>
         </div>
         <div class="title-image-container">
-          <!-- <img class="title-image" src="assets/image-hero-desktop.png" alt="image-hero"> -->
+          <picture>
+            <source media="(min-width: 1440px)" srcset="assets/image-hero-desktop.png">
+            <source media="(min-width: 500px)" srcset="assets/image-hero-tablet.png">
+            <img src="assets/image-hero-mobile.png" class="title-image" alt="image-hero">
+          </picture>
         </div>
       </section>
       <!-- Card section -->
       <section id="card-section">
-        <div class="card-content1">
+        <div class="card-content">
           <div class="card-most-popular">
             <h2>Check out our most popular courses!</h2>
           </div>
@@ -48,8 +52,6 @@
             <p>Create beautiful, usable interfaces to help shape the future of how the web looks.</p>
             <a href="#">Get Started</a>
           </div>
-        </div>
-        <div class="card-content2">
           <div class="card-photography">
             <img src="assets/icon-photography.svg" alt="icon-photography">
             <h3>Photography</h3>
